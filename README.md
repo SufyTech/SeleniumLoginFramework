@@ -1,22 +1,46 @@
-# Selenium Automation Framework for Login Functionality using POM
+# AI-Assisted Selenium Automation Framework – Login Testing (POM)
 
-![Java](https://img.shields.io/badge/Java-21-blue) ![Selenium](https://img.shields.io/badge/Selenium-4.17.0-green) ![TestNG](https://img.shields.io/badge/TestNG-7.9.0-orange)
+![Java](https://img.shields.io/badge/Java-21-blue) ![Selenium](https://img.shields.io/badge/Selenium-4.40.0-green) ![TestNG](https://img.shields.io/badge/TestNG-7.9.0-orange) ![Automation](https://img.shields.io/badge/QA-Automation-blueviolet)
 
 ---
 
 ## 🚀 Project Overview
 
-This project is a **professional Selenium Automation Framework** developed using **Java, Selenium 4, TestNG, and the Page Object Model (POM)**. It automates the **login functionality** of [The Internet Herokuapp](https://the-internet.herokuapp.com/login), including both **positive and negative login scenarios**.
+This project is a **real-world AI-assisted Selenium Automation Framework** developed using **Java, Selenium 4, TestNG, and Page Object Model (POM)**.
+
+It automates the **login functionality** of a **public practice website** ([Practice Test Automation Login](https://practicetestautomation.com/practice-test-login/)) with **positive and negative scenarios**, focusing on **stability, intelligence, and reliability**, rather than just script execution.
+
+This framework is designed for **professional QA automation practice** and showcases hands-on skills that recruiters look for in automation candidates.
+
+---
+
+## 🧠 AI-Assisted Intelligence
+
+While not ML-based, this framework is **AI-assisted** because it makes **smart runtime decisions** that simulate human-like test behavior:
+
+- **Smart Explicit Waits** – dynamic waits based on element readiness
+- **Decision-Based Validations** – automatically detects login success or failure
+- **Safe Element Handling** – prevents stale element crashes
+- **Self-Recovery** – retry logic for page navigation
+- **Automatic Screenshots** – captures failures for debugging
+
+These features demonstrate your ability to **write intelligent, maintainable, and robust automation scripts**, which recruiters highly value.
 
 ---
 
 ## ✅ Key Features
 
-- **Page Object Model (POM):** Encapsulates locators and actions for maintainable and reusable code.
-- **BaseTest Class:** Handles browser setup and teardown for all tests.
-- **Explicit Waits:** Ensures synchronization between Selenium and web elements.
-- **TestNG Framework:** Provides structured test execution and assertions.
-- **Positive & Negative Login Tests:** Validates correct and incorrect login scenarios.
+- **Page Object Model (POM)**: Clean separation of locators and actions for maintainable code
+- **BaseTest Architecture**: Centralized browser setup, teardown, retries, and reporting
+- **Intelligent Wait Utility**: Handles dynamic and unstable UI without test failure
+- **Decision-Based Validation**: Automatically determines login success or failure
+- **Positive & Negative Test Coverage**:
+  - Valid Login
+  - Invalid Username
+  - Invalid Password
+
+- **Failure Handling & Debug Support**: Auto screenshots on test failure
+- **Git & GitHub**: Version control and clean project management
 
 ---
 
@@ -26,10 +50,16 @@ This project is a **professional Selenium Automation Framework** developed using
 SeleniumFramework/
  ├── pom.xml
  ├── src
- │   ├── main/java/base/BaseTest.java
- │   ├── main/java/pages/LoginPage.java
- │   └── main/java/utils/WaitUtil.java
- └── test/java/tests/LoginTest.java
+ │   ├── main/java
+ │   │   ├── base
+ │   │   │   └── BaseTest.java
+ │   │   ├── pages
+ │   │   │   └── LoginPage.java
+ │   │   └── utils
+ │   │       └── WaitUtil.java
+ │   └── test/java
+ │       └── tests
+ │           └── LoginTest.java
  └── testng.xml
 ```
 
@@ -37,29 +67,53 @@ SeleniumFramework/
 
 ## ⚡ How to Run
 
-1. Clone the repository:
+1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/SeleniumLoginFramework.git
+git clone https://github.com/<your-username>/SeleniumFramework.git
 ```
 
-2. Open the project in **IntelliJ IDEA**.
-3. Ensure **ChromeDriver** is installed and matches your Chrome version.
-4. Execute the tests by running `testng.xml`.
+2️⃣ Open the project in **IntelliJ IDEA**
+3️⃣ Ensure:
+
+- Java 21 is installed
+- Chrome browser is installed
+- Selenium Manager handles ChromeDriver automatically
+
+4️⃣ Run tests using:
+
+- `testng.xml` OR
+- Directly run `LoginTest.java`
+
+---
+
+## 🧪 Test Scenarios
+
+**✔ Positive Test:**
+
+- Login with valid credentials
+- Verify successful login behavior
+
+**❌ Negative Tests:**
+
+- Invalid username
+- Invalid password
+- Error message verification
 
 ---
 
 ## 💡 Skills Demonstrated
 
-- Proficient in **Java** and **Selenium 4** automation.
-- Knowledge of **TestNG framework** and assertions.
-- Implementation of **Page Object Model (POM)** for scalable test design.
-- Effective use of **explicit waits** for synchronization.
-- Writing **clean, maintainable, and modular automation code**.
-- Version control using **Git and GitHub**.
+- Java, Selenium WebDriver, TestNG, POM design pattern
+- Intelligent wait strategies and failure recovery
+- Automation of real-world public websites
+- Version control using Git & GitHub
+- QA methodologies: SDLC, STLC, Agile
 
 ---
 
-## 🔗 Live Test URL
+## 🔗 Live Application Under Test
 
-[The Internet Herokuapp Login Page](https://the-internet.herokuapp.com/login)
+[Practice Test Automation – Login Page](https://practicetestautomation.com/practice-test-login/)
+
+---
